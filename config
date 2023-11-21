@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = http://gitee.zhejianglab.com:80/enterprise/real-time-pose-estimation.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "rt-linux"]
+	remote = origin
+	merge = refs/heads/rt-linux
